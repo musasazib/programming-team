@@ -7,11 +7,6 @@
     margin-right: 5px;
     margin-bottom: 5px;
 }
-.cart-info img{
-    border-radius: 50%;
-    width: 25px;
-    height: 25px;
-}
 .cart-dev{
     display: flex;
     background-color: rgba(0, 0, 0, 0.397);

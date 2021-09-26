@@ -21,7 +21,6 @@ const TeamCart = (props) => {
                 devCart.map(cart => <div className="cart-info">
                     <div className="cart-dev">
                         <h4>{element} {cart.name}</h4>
-                        <img src={cart.picture} alt="" />
                     </div>
                 </div>)
             }
