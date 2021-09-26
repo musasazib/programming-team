@@ -1,0 +1,21 @@
+.cart-container{
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 10px;
+}
+.cart-info{
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.cart-info img{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+.cart-dev{
+    display: flex;
+    background-color: lightsteelblue;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding-left: 10px;
+}
