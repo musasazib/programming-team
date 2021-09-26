@@ -14,7 +14,7 @@ const Developer = (props) => {
             <div>
                 <h3 className="developer-name">{name} </h3>
                 <p>Position : {position}</p>
-                <p>Salary : {salary}</p>
+                <p>Salary : ${salary}</p>
                 <p>Email : {email}</p>
                 <p>Address : {address}</p>
                 <button
