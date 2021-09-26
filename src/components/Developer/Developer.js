@@ -6,7 +6,6 @@ import { faUserPlus } from '@fortawesome/free-solid-svg-icons'
 const Developer = (props) => {
     const { picture, name, position, salary, email, address } = props.developer;
     const devIcon = <FontAwesomeIcon className="dev-icon" icon={faUserPlus} />
-//<i class="fas fa-user-plus"></i>
     return (
         <div className="developer">
             <div className="developer-img">
