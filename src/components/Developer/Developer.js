@@ -1,8 +1,12 @@
 import React from 'react';
 import './Developer.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faUserPlus } from '@fortawesome/free-solid-svg-icons'
 
 const Developer = (props) => {
     const { picture, name, position, salary, email, address } = props.developer;
+    const devIcon = <FontAwesomeIcon className="dev-icon" icon={faUserPlus} />
+//<i class="fas fa-user-plus"></i>
     return (
         <div className="developer">
             <div className="developer-img">
@@ -17,7 +21,7 @@ const Developer = (props) => {
                 <button
                     onClick={() => props.handleAddToCart(props.developer)}
                     className="btn-regular"
-                >Select Programmer</button>
+                >{devIcon}  Select Programmer</button>
             </div>
         </div>
     );

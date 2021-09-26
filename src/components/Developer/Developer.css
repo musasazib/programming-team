@@ -1,5 +1,5 @@
 .developer-name{
-    color: green;
+    color: brown;
     font-weight: 700;
 }
 .developer{    
@@ -7,6 +7,7 @@
     border: 3px solid lightgray;
     padding-left: 10px;
     border-radius: 10px;
+    padding: 5px;
 }
 .developer-img{
     text-align: center;
@@ -16,10 +17,14 @@
     border-radius: 50%;
 }
 .btn-regular{
-    background-color: green;
+    background-color: rgba(0, 0, 0, 0.534);
     border: 1px solid lightgray;
     width: 150px;
     height: 35px;
     border-radius: 5px;
     cursor: pointer;
+    color: white;
+}
+.dev-icon{
+    color: rgb(165, 42, 42);
 }

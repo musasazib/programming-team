@@ -14,8 +14,15 @@
 }
 .cart-dev{
     display: flex;
-    background-color: lightsteelblue;
+    background-color: rgba(0, 0, 0, 0.397);
     border-radius: 10px;
     margin-left: 10px;
     padding-left: 10px;
+    color: white;
+}
+.element{
+    color: brown;
+}
+.programmer-icon{
+    color: green;
 }

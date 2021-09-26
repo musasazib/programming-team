@@ -1,5 +1,7 @@
 import React from 'react';
 import './TeamCart.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPlusCircle, faCodeBranch, faDollarSign } from '@fortawesome/free-solid-svg-icons'
 
 const TeamCart = (props) => {
     const { devCart } = props;
@@ -8,14 +10,17 @@ const TeamCart = (props) => {
     for (const developer of devCart) {
         total = total + developer.salary;
     }
+    const element = <FontAwesomeIcon className="element" icon={faPlusCircle} />
+    const programmerIcon = <FontAwesomeIcon className="programmer-icon" icon={faCodeBranch} />
+    const costIcon = <FontAwesomeIcon className="programmer-icon" icon={faDollarSign} />
     return (
         <div className="cart-container">
-            <h3>Added Programer: {props.devCart.length}</h3>
-            <h4>Total cost: ${total.toFixed(2)}</h4>
+            <h3>{programmerIcon} Added Programer: {props.devCart.length}</h3>
+            <h4>{costIcon} Total cost: ${total.toFixed(2)}</h4>
             {
                 devCart.map(cart => <div className="cart-info">
                     <div className="cart-dev">
-                        <h4>{cart.name}</h4>
+                        <h4>{element} {cart.name}</h4>
                         <img src={cart.picture} alt="" />
                     </div>
                 </div>)
