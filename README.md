@@ -4,7 +4,7 @@ This project is React.js with [GitHub Link](https://github.com/ProgrammingHeroWC
 
 This project is Live Link with [Netlify](https://world-class-developers.netlify.app/).
 
-- Light/dark mode toggle
-- Live previews
-- Fullscreen mode
-- Cross platform
+- World class programmer
+- How much Salary of the programmer
+- How many positions of the programmer
+- What is the budget of the project
