@@ -1,0 +1,68 @@
+[
+    {
+        "id": "6150209b2a41e69b68af7cd9",
+        "salary": 3592.65,
+        "picture": "http://placehold.it/32x32",
+        "age": 37,
+        "name": "Raymond Hall",
+        "gender": "male",
+        "email": "raymondhall@qnekt.com",
+        "address": "Bordelonville, American Samoa ",
+        "favoriteFruit": "apple"
+    },
+    {
+        "id": "6150209b406a60952fd896ac",
+        "salary": 3707.91,
+        "picture": "http://placehold.it/32x32",
+        "age": 38,
+        "name": "Gallegos King",
+        "gender": "male",
+        "email": "gallegosking@qnekt.com",
+        "address": "Chesapeake, California ",
+        "favoriteFruit": "strawberry"
+    },
+    {
+        "id": "6150209bae4bf4602fe770f7",
+        "salary": "1,495.91",
+        "picture": "http://placehold.it/32x32",
+        "age": 34,
+        "name": "Darla Lyons",
+        "gender": "female",
+        "email": "darlalyons@qnekt.com",
+        "address": "Dyckesville, Louisiana ",
+        "favoriteFruit": "banana"
+    },
+    {
+        "id": "6150209bfcef9f70fd214f57",
+        "salary": "1,130.65",
+        "picture": "http://placehold.it/32x32",
+        "age": 40,
+        "name": "Lois Briggs",
+        "gender": "female",
+        "email": "loisbriggs@qnekt.com",
+        "address": "Avoca, Arizona ",
+        "favoriteFruit": "banana"
+    },
+    {
+        "id": "6150209be90a550b92b6a5dd",
+        "salary": "2,528.17",
+        "picture": "https://yt3.ggpht.com/ytc/AKedOLQ09D8wVCdgWoCN3IPrvVKWi48-R2QZ_yJkCmKh-A=s900-c-k-c0x00ffffff-no-rj",
+        "age": 25,
+        "name": "Miller Taylor",
+        "gender": "male",
+        "email": "millertaylor@qnekt.com",
+        "address": "Stagecoach, New Hampshire ",
+        "favoriteFruit": "banana"
+    },
+    {
+        "id": "6150209b106728730c81e063",
+        "salary": "3,405.66",
+        "picture": "http://placehold.it/32x32",
+        "age": 40,
+        "name": "Mcmillan Rice",
+        "gender": "male",
+        "email": "mcmillanrice@qnekt.com",
+        "address": "Como, Oklahoma ",
+        "favoriteFruit": "banana"
+    }
+]

@@ -1,0 +1,25 @@
+.developer-name{
+    color: green;
+    font-weight: 700;
+}
+.developer{    
+    background-color: lightblue;
+    border: 3px solid lightgray;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+.developer-img{
+    text-align: center;
+}
+.developer img{
+    width: 50%;
+    border-radius: 50%;
+}
+.btn-regular{
+    background-color: green;
+    border: 1px solid lightgray;
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+}
