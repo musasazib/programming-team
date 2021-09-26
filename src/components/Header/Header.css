@@ -2,7 +2,21 @@
     text-align: center;
     background-color: rgba(0, 0, 0, 0.534);
     color: white;
+    padding: 30px;
+    margin-bottom: 10px;
 }
-.logo{
-    height: 75px;
+.header nav{
+    background-color: rgba(0, 0, 0, 0.287);
+    line-height: 40px;
+}
+.header nav a{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    font-size: 15px;
+    padding: 5px;
+}
+.header nav a:hover{
+    background-color: rgba(211, 211, 211, 0.329);
+    border-radius: 5px;
 }
